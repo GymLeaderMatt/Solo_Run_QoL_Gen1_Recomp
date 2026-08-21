@@ -1,0 +1,22 @@
+{
+  "id": "solo_run_qol",
+  "name": "Solo Run QoL",
+  "version": "0.9.1",
+  "entry": "main.lua",
+  "api": 2,
+  "profile": "content",
+  "category": "Solo Run",
+  "priority": 100,
+  "affects_link": false,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [
+    "jj_running_shoes",
+    "hold_to_scroll_ui",
+    "jj_repel_prompt"
+  ],
+  "description": "Three comfort features in one mod: hold B to run at double speed with the bike scaled to match, hold the D-pad to scroll menus, and a prompt to reuse a Repel when one wears off."
+}
