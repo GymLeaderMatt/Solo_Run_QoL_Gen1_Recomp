@@ -23,6 +23,5 @@
 
 # Repel Prompt:
 - Huge quality of life change. When you run out of a repel, a dialogue box simply asks if you want to use another on in your bag.
-- This defaults to your lowest quality repels. You can change the code if you want to.
-- For example, if you have a max repel on, run out, AND you have a regular basic repel in your bag, it will be used.
-- So get rid of your lower quality repels if that bothers you.
+- This defaults to your highest quality repel, i.e. if you use a super repel and have a max repel in your bag, it'll reuse the max.
+- The dialogue to reuse defaults to yes. This is so that Turbo B can hit 'no' automatically or if you use Turbo A, it'll hit yes.
